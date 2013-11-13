@@ -7,9 +7,9 @@ build:
     - script:
         name: npm install
         code: |
+            sudo npm install -g grunt-cli
             mkdir -p $WERCKER_CACHE_DIR/wercker/npm
             npm config set cache $WERCKER_CACHE_DIR/wercker/npm
-            sudo npm install -g grunt-cli
             npm install --save-dev
     # # A step that executes `npm test` command
     # - npm-test
