@@ -10,9 +10,7 @@ build:
             sudo npm install -g grunt-cli
             mkdir -p $WERCKER_CACHE_DIR/wercker/npm
             npm config set cache $WERCKER_CACHE_DIR/wercker/npm
-            sudo npm install -g --save-dev
-    # # A step that executes `npm test` command
-    # - npm-test
+            sudo npm install --save-dev
     - script:
         name: install compass
         code: sudo gem install compass --no-ri --no-rdoc
@@ -21,4 +19,3 @@ build:
         name: run grunt-cli
         code: |
             grunt
-
