@@ -7,7 +7,7 @@ build:
     - script:
         name: npm install
         code: |
-            npm install -g grunt-cli
+            sudo npm install -g grunt-cli
             npm install --save-dev
     # # A step that executes `npm test` command
     # - npm-test
