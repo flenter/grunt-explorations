@@ -12,6 +12,11 @@ build:
     # # A step that executes `npm test` command
     # - npm-test
     - script:
-        name: install bundler
+        name: install compass
         code: sudo gem install compass
+
+    - script:
+        name: run grunt-cli
+        code: |
+            grunt
 
