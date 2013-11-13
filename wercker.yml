@@ -13,7 +13,7 @@ build:
     # - npm-test
     - script:
         name: install compass
-        code: sudo gem install compass
+        code: sudo gem install compass --no-ri --no-rdoc
 
     - script:
         name: run grunt-cli
