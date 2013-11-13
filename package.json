@@ -1,0 +1,34 @@
+{
+  "name": "grunt-explorations",
+  "version": "0.0.1",
+  "description": "grunt and wercker",
+  "main": "Gruntfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-jshint": "~0.6.5",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flenter/grunt-explorations.git"
+  },
+  "keywords": [
+    "wercker",
+    "grunt"
+  ],
+  "author": "Jacco Flenter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flenter/grunt-explorations/issues"
+  }
+}
